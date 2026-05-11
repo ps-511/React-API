@@ -3,7 +3,6 @@ import "./App.css";
 import UserCard from "./components/UserCard";
 import Search from "./components/Search";
 import { fetchUsers } from "./services/api";
-import { alignPropType } from "react-bootstrap/esm/types";
 function App() {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
